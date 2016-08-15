@@ -1,0 +1,10 @@
+<%@ import val notes: Seq[com.github.klumpen.notes.Note] %>
+		#for(note  <- notes)
+			<div class="row">
+				<div class="span6">
+					
+			
+					<p> <%= note.body %> </p>
+				</div>
+			</div>
+		#end
